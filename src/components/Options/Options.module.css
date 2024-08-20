@@ -1,0 +1,18 @@
+.listButton {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.optionButton {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(229, 229, 67);
+    border: none;
+    transition:  color 300ms ease-in-out;
+}
+
+.optionButton:hover {
+    box-shadow: 0 0 40px 40px rgb(220, 56, 27) inset;
+}
